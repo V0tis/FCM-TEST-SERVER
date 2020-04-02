@@ -1,0 +1,7 @@
+type Query {
+    PushFCM: PushFCMResponse
+}
+
+type PushFCMResponse {
+    status: Boolean!
+}
