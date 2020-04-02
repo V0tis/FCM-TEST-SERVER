@@ -1,0 +1,21 @@
+{
+  "name": "FCM-TEST-SERVER",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/JungDonggun/FCM-TEST-SERVER.git",
+  "author": "JungDonggun <donggun.dev@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "cd src && nodemon --exec ts-node app.ts -e ts, graphql",
+    "start": "tsc && node dist/main"
+  },
+  "dependencies": {
+    "graphql": "^14.6.0",
+    "graphql-yoga": "^1.18.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2",
+    "ts-node": "^8.8.1",
+    "typescript": "^3.8.3"
+  }
+}
