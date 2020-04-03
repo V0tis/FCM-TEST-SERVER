@@ -5,7 +5,7 @@ const resolvers: Resolvers = {
   Query: {
     pushFCM: async (parent, args, info): Promise<PushFCMResponse> => {
       try {
-        console.log('info!!!!!!!')
+        console.log('info!!!!!!!', info)
         return {
           status: true
         }
