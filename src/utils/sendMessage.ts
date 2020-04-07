@@ -7,7 +7,8 @@ const sendMessage = async (dataForPayload: MessagePayload) => {
   const payload = {
     notification: {
       title: dataForPayload.title,
-      body: dataForPayload.body
+      body: dataForPayload.body,
+      sound: 'default'
     }
   }
 
